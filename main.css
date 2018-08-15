@@ -98,7 +98,7 @@ body{
   }
   .dexter{
       height: 350px;
-      width: 220px;
+      width: 240px;
       position: absolute;
       left: 140px;
       top: 40px;
@@ -163,4 +163,34 @@ body{
     top: 40px;
     left: 390px;
 
+}
+.movie-month{
+    height: 320px;
+    background-color: #fff;
+    position: relative;
+}
+.month-heading{
+
+}
+.month-movie{
+    text-transform: uppercase;
+    color: #999999;
+    padding: 20px;
+    display: inline-block;
+}
+.next-prev-movie{
+    color: #999999;
+}
+.see-all{
+    position: absolute;
+    right: 0;
+    padding: 30px;
+    display: inline-block;
+}
+.see-all-movie{
+    padding-right: 10px;
+}
+.see{
+    color: #5293c2;
+    font-weight: bold;
 }
