@@ -165,7 +165,7 @@ body{
 
 }
 .movie-month{
-    height: 320px;
+    height: 400px;
     background-color: #fff;
     position: relative;
 }
@@ -193,4 +193,54 @@ body{
 .see{
     color: #5293c2;
     font-weight: bold;
+}
+.movie1{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    width: 190px;
+}
+.movie2{
+    position: absolute;
+    top: 90px;
+    left: 250px;
+    width: 190px;
+}
+.movie3{
+    position: absolute;
+    top: 90px;
+    left: 470px;
+    width: 190px;
+}
+.movie4{
+    position: absolute;
+    top: 90px;
+    left: 690px;
+    width: 190px;
+}
+.name{
+    color: #5293c2;
+    
+}
+.underline{
+
+    border-bottom: solid 2px #dce7f1;
+    width: 110px;
+      padding-bottom: 1px;
+}
+.movie-desc{
+   
+    font-size: 13px;
+}
+.num-likes
+{
+    color:#979797;
+    padding-left: 5px;
+}
+.view-img{
+    padding-left: 15px;
+}
+.num-views{
+    color:#979797;
+    padding-left: 5px;
 }
