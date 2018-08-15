@@ -5,8 +5,8 @@ body{
 .main-content{
     width: 900px;
     margin: auto;
-    background: #fff;
-    height: 400px;
+ 
+
 }
 
 #nav-panel{
@@ -88,4 +88,21 @@ body{
   padding: 13px 15px 13px 11px;
   color: #b7b7b7;
   margin-top: 4px;;
+  }
+  .front{
+      background-color: #1c1c1c;
+      height: 450px;
+      position: relative;
+  }
+  .dexter{
+      height: 320px;
+      width: 220px;
+      position: absolute;
+      left: 140px;
+      top: 40px;
+  }
+  .star{
+      position: absolute;
+      top: 370px;
+      left: 220px;;
   }
