@@ -65,7 +65,7 @@ body{
 }
 
 #nav-panel ul li ul{
-    display:none;
+    display:none; border:none;
 }
 .search{
     border-radius: 6px;
@@ -93,6 +93,7 @@ body{
       background-color: #1c1c1c;
       height: 450px;
       position: relative;
+      
   }
   .dexter{
       height: 320px;
@@ -106,3 +107,26 @@ body{
       top: 370px;
       left: 220px;;
   }
+.content{
+    position: absolute;
+    top: 40px;
+    left: 400px;;
+    color: #fff;
+    
+}
+.day-movie{
+    color: #3774e0;
+
+}
+.movie-name
+{
+    color:#c7c6ce;
+}
+.desc{
+    color: #9998a2;
+    font-size: 14px;
+    width: 340px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 50px;
+}
