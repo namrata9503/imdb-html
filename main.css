@@ -2,6 +2,20 @@ body{
     background: #000;
     margin: 0
 }
+span{
+    font-family: myFont;
+}
+body{
+    font-family: myFont;
+}
+@font-face {
+    font-family: "myFont";
+    src: url("fonts/PTN77F-webfont.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Open";
+    src: url("fonts/PTN77F-webfont.eot") format("eot");
+  }
 .main-content{
     width: 900px;
     margin: auto;
@@ -13,6 +27,7 @@ body{
     background:#000;
     display:inline-block;
     width:100%;
+    font-family: first-font;
 }
 .logo{
     /* position:relative !important;
@@ -32,6 +47,7 @@ body{
     color:#fff;
     text-decoration:none;
     font-size:18px;;
+    font-family: first-font;
     
 }
 
@@ -56,6 +72,7 @@ body{
     border-bottom:none;
     line-height:55px;
     margin: 10px;
+    font-family: first-font;
 }
 
 
@@ -234,12 +251,12 @@ body{
 }
 .name{
     color: #5293c2;
-    
+    width: 90px;
 }
 .underline{
 
     border-bottom: solid 2px #dce7f1;
-    width: 110px;
+    
       padding-bottom: 1px;
 }
 .movie-desc{
@@ -337,7 +354,7 @@ body{
     color: #5293c2;
 }
 .metallica-details{
-    width: 227px;
+    width: 218px;
     margin-left: 20px;
     font-size: 13px;
     color: #9d9ea3;
@@ -386,7 +403,7 @@ body{
 .loopers{
     position: absolute;
     left: 549px;
-    top: 880px;
+    top: 900px;
     width: 285px;
 }
 .dream-heading
@@ -486,7 +503,7 @@ body{
 }
 .footer{
     background-color: #1f1f1f;
-    height: 250px;
+    height: 332px;
     padding-left: 10px;
     padding-top: 43px;
     position: relative;
@@ -531,11 +548,18 @@ padding-bottom: 30px;
     left:200px;
 }
 .dashboard-header{
+    border-bottom: 1px solid #373737;
+    /* margin: auto; */
+    padding-bottom: 40px;
+    font-size: 20px;
     color: #5293c2;
-    margin-bottom: 45px;
 }
+
 .dashboard1,.dashboard2,.dashboard3,.dashboard4{
     color: #818181;
+    border-bottom: 1px solid #373737;
+    /* margin: auto; */
+    padding-bottom: 10px;
 }
 .movies-footer{
     text-transform: uppercase;
