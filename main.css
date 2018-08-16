@@ -154,9 +154,23 @@ body{
     position: absolute;
     left: 40px;
 }
+.trailor1-name{
+    color: #888888;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 0 !important;
+    text-transform: uppercase;
+}
 .pic2{
     position: absolute;
     left: 220px;
+}
+.trailor2-name{
+    color: #888888;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 0 !important;
+    text-transform: uppercase;
 }
 .arrow-right{
     position: absolute;
@@ -296,6 +310,12 @@ body{
     height: 300px;
     background-color: #fafafa;
 }
+.video-icon-m1{
+    position: absolute;
+    left: 179px;
+    top: 97px;
+    z-index: 2;
+}
 .metallica2{
     position: absolute;
     left: 280px;
@@ -304,6 +324,12 @@ body{
     width: 227px;
     height: 300px;
     background-color: #fafafa;
+}
+.video-icon-m2{
+    position: absolute;
+    left: 179px;
+    top: 97px;
+    z-index: 2;
 }
 .metallica-heading
 {
@@ -343,6 +369,13 @@ body{
 .fantastic-img{
     width: 305px;
     height: 180px;
+}
+.video-icon{
+    position: absolute;
+    left: 259px;
+    top: 140px;
+    z-index: 2;
+    
 }
 .rome{
     position: absolute;
@@ -463,12 +496,29 @@ body{
    
     text-align: center;
 }
+.title{
+padding-bottom: 30px;
+}
+.site >.title{
+    border-bottom: 1px solid #373737;
+    
+}
+.site-icons{
+    padding-top: 30px;
+}
+.site >.site-icons{
+    border-top: 1px solid #373737;
+    width: 50%;
+    margin: auto;
+    
+}
 .title-desc{
     color: #868686;
     font-size: 13px;
     width: 120px;
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .site-icons{
     margin-top: 30px;
