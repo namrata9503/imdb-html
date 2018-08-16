@@ -453,8 +453,9 @@ body{
 }
 .footer{
     background-color: #1f1f1f;
-    height: 500px;
-    padding: 40px;
+    height: 250px;
+    padding-left: 10px;
+    padding-top: 43px;
     position: relative;
 }
 .site{
@@ -477,11 +478,32 @@ body{
     text-transform: uppercase;
     position: absolute;
     top: 30px;
-    left:250px;
+    left:200px;
 }
 .dashboard-header{
     color: #5293c2;
+    margin-bottom: 45px;
 }
 .dashboard1,.dashboard2,.dashboard3,.dashboard4{
     color: #818181;
+}
+.movies-footer{
+    text-transform: uppercase;
+    position: absolute;
+    top: 30px;
+    left:420px;
+}
+.tv-footer{
+    text-transform: uppercase;
+    position: absolute;
+    top: 30px;
+    left:560px;
+}
+.links{
+    text-transform: uppercase;
+    color: #5293c2;
+    position: absolute;
+    top: 30px;
+    left:700px;
+    line-height: 1.0rem;
 }
