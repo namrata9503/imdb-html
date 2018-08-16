@@ -451,3 +451,37 @@ body{
     color:#979797;
     
 }
+.footer{
+    background-color: #1f1f1f;
+    height: 500px;
+    padding: 40px;
+    position: relative;
+}
+.site{
+    width: 200px;
+   
+    text-align: center;
+}
+.title-desc{
+    color: #868686;
+    font-size: 13px;
+    width: 120px;
+    margin: auto;
+    margin-top: 30px;
+}
+.site-icons{
+    margin-top: 30px;
+}
+.dashboard{
+ 
+    text-transform: uppercase;
+    position: absolute;
+    top: 30px;
+    left:250px;
+}
+.dashboard-header{
+    color: #5293c2;
+}
+.dashboard1,.dashboard2,.dashboard3,.dashboard4{
+    color: #818181;
+}
