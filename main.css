@@ -3,20 +3,25 @@ body{
     margin: 0;
     padding: 0;
 }
+h1,h2,h3,h4,h5,h6{
+    font-family: myFont;
+}
 span{
     font-family: myFont;
 }
 body{
     font-family: myFont;
 }
+
 @font-face {
     font-family: "myFont";
     src: url("fonts/PTN77F-webfont.woff") format("woff");
   }
-  @font-face {
-    font-family: "Open";
+/* @font-face {
+    font-family: "font1";
     src: url("fonts/PTN77F-webfont.eot") format("eot");
-  }
+  } */
+
 .main-content{
     width: 900px;
     margin: auto;
@@ -513,7 +518,7 @@ body{
 }
 .footer{
     background-color: #1f1f1f;
-    height: 297px;
+    height: 277px;
     padding-left: 10px;
     padding-top: 43px;
     position: relative;
@@ -524,11 +529,11 @@ body{
     text-align: center;
 }
 .title{
-padding-bottom: 30px;
+padding-bottom: 13px;
 }
 .site >.title{
     border-bottom: 1px solid #373737;
-    
+    margin: -5px;
 }
 .site-icons{
     padding-top: 30px;
@@ -560,7 +565,7 @@ padding-bottom: 30px;
 .dashboard-header{
     border-bottom: 1px solid #373737;
     /* margin: auto; */
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     font-size: 20px;
     color: #5293c2;
 }
@@ -569,7 +574,8 @@ padding-bottom: 30px;
     color: #818181;
     border-bottom: 1px solid #373737;
     margin: auto;
-    padding-bottom: 12px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 .dashboard-num{
     float: right;
@@ -578,19 +584,20 @@ padding-bottom: 30px;
     text-transform: uppercase;
     position: absolute;
     top: 30px;
-    left:420px;
+    left: 360px;
 }
 .tv-footer{
     text-transform: uppercase;
     position: absolute;
     top: 30px;
-    left:560px;
+    left:480px;
 }
 .links{
     text-transform: uppercase;
     color: #5293c2;
     position: absolute;
     top: 30px;
-    left:700px;
-    line-height: 1.0rem;
+    left: 660px;
+    line-height: 0.7rem;
+    font-size: 15px;
 }
