@@ -138,8 +138,54 @@ body{
   .star{
       position: absolute;
       top: 390px;
-      left: 220px;;
+      left: 220px;
+      background: url(img/star-icon.png);
+      background-position: top;
+
+      height: 20px;
+    width: 50px;
+  
+
   }
+
+
+  @keyframes star-animate {
+    to {
+        height: 20px;
+
+      width: 50px;
+    }
+   
+    from {
+        width: 50px;
+        height: 20px;
+        background-position: bottom;
+    }
+  }
+  .star:active{
+    animation: star-animate 0.5s;
+    animation-duration: 3s;
+animation-timing-function: ease;
+cursor: pointer;
+
+  }
+  .star:focus{
+    animation: star-animate 0.5s;
+    animation-duration: 3s;
+animation-timing-function: ease;
+cursor: pointer;
+  }
+  /* .star:focus{
+    background:olive;
+    cursor: pointer;
+
+}
+  .star:active{
+    background:olive;
+    cursor: pointer;
+} */
+
+  
 .content{
     position: absolute;
     top: 40px;
