@@ -135,7 +135,50 @@ body{
       left: 140px;
       top: 40px;
   }
-  .star{
+
+.star ul .rating{
+    background-image: url(img/star-icon.png);
+    width: 18px;
+    height: 18px;
+    display: inline;
+    position: absolute;
+    top: 385px;
+    left: 215px;
+    /* background-position: -18px 0; */
+}
+.rating:hover{
+    cursor: pointer;
+    background-position: 0 -18px;
+}
+.star ul .rating1{
+    background-image: url(img/star-icon.png);
+    width: 18px;
+    height: 18px;
+    display: inline;
+    position: absolute;
+    top: 385px;
+    left: 235px;
+    /* background-position: -18px 0; */
+}
+.rating1:hover{
+    cursor: pointer;
+    background-position: 0 -18px;
+}
+.star ul .rating2{
+    background-image: url(img/star-icon.png);
+    width: 18px;
+    height: 18px;
+    display: inline;
+    position: absolute;
+    top: 385px;
+    left: 255px;
+    /* background-position: -18px 0; */
+}
+.rating2:hover{
+    cursor: pointer;
+    background-position: 0 -18px;
+}
+  /* .star{
       position: absolute;
       top: 390px;
       left: 220px;
@@ -148,10 +191,7 @@ cursor: pointer;
 
   }
   .star:hover{
-    /* animation: star-animate 0.5s;
-    animation-duration: 3s;
-animation-timing-function: ease;
-cursor: pointer; */
+  
 
 animation-name: animate;
   animation-duration: 22s;
@@ -161,10 +201,7 @@ animation-name: animate;
 
   }
   .star:focus{
-    /* animation: star-animate 0.5s;
-    animation-duration: 3s;
-animation-timing-function: ease;
-cursor: pointer; */
+ 
 
 animation-name: animate;
   animation-iteration-count: infinite;
@@ -177,7 +214,7 @@ animation-name: animate;
     0%   { background-position: bottom;  }
     50%  { background-position: top; }
     100% { background-position: top; }
-  }
+  } */
   
   
 
